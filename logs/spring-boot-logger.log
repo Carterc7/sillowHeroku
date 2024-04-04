@@ -1,0 +1,128 @@
+2024-04-03 09:35:29,612 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2024-04-03 09:35:29,616 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MilestoneApplication using Java 11.0.21 on MacBook-Air.local with PID 99418 (/Users/cartercampbell/Desktop/Spring24/CST-339_Milestone-main/target/classes started by cartercampbell in /Users/cartercampbell/Desktop/Spring24/CST-339_Milestone-main)
+2024-04-03 09:35:29,616 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.5, Spring v5.3.10
+2024-04-03 09:35:29,616 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2024-04-03 09:35:29,777 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-03 09:35:29,777 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-03 09:35:30,190 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-03 09:35:30,197 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2024-04-03 09:35:30,342 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'aopConfiguration' of type [com.gcu.AopConfiguration$$EnhancerBySpringCGLIB$$fc860a0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-03 09:35:30,348 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'tracer' of type [com.gcu.Tracer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-03 09:35:30,348 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'performanceMonitorAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-03 09:35:30,556 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2024-04-03 09:35:30,569 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-03 09:35:30,569 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-04-03 09:35:30,569 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-04-03 09:35:30,601 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-04-03 09:35:30,601 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 824 ms
+2024-04-03 09:35:30,708 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getSecurityService execution started at:Wed Apr 03 09:35:30 MST 2024
+2024-04-03 09:35:30,713 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getSecurityService execution lasted:5 ms
+2024-04-03 09:35:30,713 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getSecurityService execution ended at:Wed Apr 03 09:35:30 MST 2024
+2024-04-03 09:35:30,738 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getPropertyBusiness execution started at:Wed Apr 03 09:35:30 MST 2024
+2024-04-03 09:35:30,739 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getPropertyBusiness execution lasted:1 ms
+2024-04-03 09:35:30,739 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getPropertyBusiness execution ended at:Wed Apr 03 09:35:30 MST 2024
+2024-04-03 09:35:30,739 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getDataSource execution started at:Wed Apr 03 09:35:30 MST 2024
+2024-04-03 09:35:30,739 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getDataSource execution lasted:0 ms
+2024-04-03 09:35:30,740 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getDataSource execution ended at:Wed Apr 03 09:35:30 MST 2024
+2024-04-03 09:35:31,082 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-04-03 09:35:32,829 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-04-03 09:35:32,888 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-04-03 09:35:32,891 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-04-03 09:35:32,911 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-03 09:35:32,921 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-03 09:35:32,929 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MilestoneApplication in 3.533 seconds (JVM running for 3.816)
+2024-04-03 09:35:43,562 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-03 09:35:44,316 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-03 09:50:18,158 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2024-04-03 09:50:18,160 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MilestoneApplication using Java 11.0.21 on MacBook-Air.local with PID 4762 (/Users/cartercampbell/Desktop/Spring24/CST-339_Milestone-main/target/classes started by cartercampbell in /Users/cartercampbell/Desktop/Spring24/CST-339_Milestone-main)
+2024-04-03 09:50:18,160 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.5, Spring v5.3.10
+2024-04-03 09:50:18,160 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2024-04-03 09:50:18,296 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-03 09:50:18,296 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-03 09:50:18,634 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-03 09:50:18,642 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2024-04-03 09:50:18,757 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'aopConfiguration' of type [com.gcu.AopConfiguration$$EnhancerBySpringCGLIB$$6c4b6f1d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-03 09:50:18,762 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'tracer' of type [com.gcu.Tracer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-03 09:50:18,762 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'performanceMonitorAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-03 09:50:18,981 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2024-04-03 09:50:18,986 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-03 09:50:18,987 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-04-03 09:50:18,987 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-04-03 09:50:19,017 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-04-03 09:50:19,017 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 721 ms
+2024-04-03 09:50:19,122 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getSecurityService execution started at:Wed Apr 03 09:50:19 MST 2024
+2024-04-03 09:50:19,127 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getSecurityService execution lasted:5 ms
+2024-04-03 09:50:19,127 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getSecurityService execution ended at:Wed Apr 03 09:50:19 MST 2024
+2024-04-03 09:50:19,150 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getPropertyBusiness execution started at:Wed Apr 03 09:50:19 MST 2024
+2024-04-03 09:50:19,150 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getPropertyBusiness execution lasted:0 ms
+2024-04-03 09:50:19,150 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getPropertyBusiness execution ended at:Wed Apr 03 09:50:19 MST 2024
+2024-04-03 09:50:19,151 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getDataSource execution started at:Wed Apr 03 09:50:19 MST 2024
+2024-04-03 09:50:19,151 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getDataSource execution lasted:0 ms
+2024-04-03 09:50:19,151 TRACE com.gcu.Tracer [restartedMain] GCU Method com.gcu.SpringConfig.getDataSource execution ended at:Wed Apr 03 09:50:19 MST 2024
+2024-04-03 09:50:19,471 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-04-03 09:50:20,881 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-04-03 09:50:20,942 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-04-03 09:50:20,946 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-04-03 09:50:20,966 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-03 09:50:20,976 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-03 09:50:20,985 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MilestoneApplication in 3.034 seconds (JVM running for 3.252)
+2024-04-03 09:50:26,109 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-03 09:50:26,110 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-03 09:50:26,112 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-04-03 09:50:26,134 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.HomeController.showHomePage execution started at:Wed Apr 03 09:50:26 MST 2024
+2024-04-03 09:50:26,136 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.HomeController.showHomePage execution lasted:2 ms
+2024-04-03 09:50:26,137 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.HomeController.showHomePage execution ended at:Wed Apr 03 09:50:26 MST 2024
+2024-04-03 09:50:26,372 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-1] Fragment expression "layouts/defaultTemplate" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2024-04-03 09:50:28,327 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.OrdersController.showAllProperties execution started at:Wed Apr 03 09:50:28 MST 2024
+2024-04-03 09:50:28,335 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.business.PropertyBusinessService.getProperties execution started at:Wed Apr 03 09:50:28 MST 2024
+2024-04-03 09:50:28,341 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.data.PropertyDataService.getProperties execution started at:Wed Apr 03 09:50:28 MST 2024
+2024-04-03 09:50:28,584 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.data.PropertyDataService.getProperties execution lasted:243 ms
+2024-04-03 09:50:28,585 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.data.PropertyDataService.getProperties execution ended at:Wed Apr 03 09:50:28 MST 2024
+2024-04-03 09:50:28,586 WARN com.gcu.Tracer [http-nio-8080-exec-3] GCU Method execution longer than 10 ms!
+2024-04-03 09:50:28,586 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.business.PropertyBusinessService.getProperties execution lasted:251 ms
+2024-04-03 09:50:28,586 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.business.PropertyBusinessService.getProperties execution ended at:Wed Apr 03 09:50:28 MST 2024
+2024-04-03 09:50:28,586 WARN com.gcu.Tracer [http-nio-8080-exec-3] GCU Method execution longer than 10 ms!
+2024-04-03 09:50:28,587 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.OrdersController.showAllProperties execution lasted:261 ms
+2024-04-03 09:50:28,587 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.OrdersController.showAllProperties execution ended at:Wed Apr 03 09:50:28 MST 2024
+2024-04-03 09:50:28,587 WARN com.gcu.Tracer [http-nio-8080-exec-3] GCU Method execution longer than 10 ms!
+2024-04-03 09:50:29,028 TRACE com.gcu.Tracer [http-nio-8080-exec-4] GCU Method com.gcu.MyErrorController.showErrorPage execution started at:Wed Apr 03 09:50:29 MST 2024
+2024-04-03 09:50:29,030 TRACE com.gcu.Tracer [http-nio-8080-exec-4] GCU Method com.gcu.MyErrorController.showErrorPage execution lasted:3 ms
+2024-04-03 09:50:29,031 TRACE com.gcu.Tracer [http-nio-8080-exec-4] GCU Method com.gcu.MyErrorController.showErrorPage execution ended at:Wed Apr 03 09:50:29 MST 2024
+2024-04-03 09:50:31,221 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.LoginController.displayLogin execution started at:Wed Apr 03 09:50:31 MST 2024
+2024-04-03 09:50:31,226 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.LoginController.displayLogin execution lasted:6 ms
+2024-04-03 09:50:31,227 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.LoginController.displayLogin execution ended at:Wed Apr 03 09:50:31 MST 2024
+2024-04-03 09:50:33,266 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.RegistrationController.displayRegistration execution started at:Wed Apr 03 09:50:33 MST 2024
+2024-04-03 09:50:33,271 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.RegistrationController.displayRegistration execution lasted:5 ms
+2024-04-03 09:50:33,272 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.RegistrationController.displayRegistration execution ended at:Wed Apr 03 09:50:33 MST 2024
+2024-04-03 09:50:35,746 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.LoginController.displayLogin execution started at:Wed Apr 03 09:50:35 MST 2024
+2024-04-03 09:50:35,747 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.LoginController.displayLogin execution lasted:1 ms
+2024-04-03 09:50:35,747 TRACE com.gcu.Tracer [http-nio-8080-exec-3] GCU Method com.gcu.LoginController.displayLogin execution ended at:Wed Apr 03 09:50:35 MST 2024
+2024-04-03 09:50:36,400 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.OrdersController.showAllProperties execution started at:Wed Apr 03 09:50:36 MST 2024
+2024-04-03 09:50:36,401 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.business.PropertyBusinessService.getProperties execution started at:Wed Apr 03 09:50:36 MST 2024
+2024-04-03 09:50:36,402 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.data.PropertyDataService.getProperties execution started at:Wed Apr 03 09:50:36 MST 2024
+2024-04-03 09:50:36,547 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.data.PropertyDataService.getProperties execution lasted:146 ms
+2024-04-03 09:50:36,547 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.data.PropertyDataService.getProperties execution ended at:Wed Apr 03 09:50:36 MST 2024
+2024-04-03 09:50:36,547 WARN com.gcu.Tracer [http-nio-8080-exec-5] GCU Method execution longer than 10 ms!
+2024-04-03 09:50:36,548 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.business.PropertyBusinessService.getProperties execution lasted:147 ms
+2024-04-03 09:50:36,548 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.business.PropertyBusinessService.getProperties execution ended at:Wed Apr 03 09:50:36 MST 2024
+2024-04-03 09:50:36,548 WARN com.gcu.Tracer [http-nio-8080-exec-5] GCU Method execution longer than 10 ms!
+2024-04-03 09:50:36,548 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.OrdersController.showAllProperties execution lasted:148 ms
+2024-04-03 09:50:36,548 TRACE com.gcu.Tracer [http-nio-8080-exec-5] GCU Method com.gcu.OrdersController.showAllProperties execution ended at:Wed Apr 03 09:50:36 MST 2024
+2024-04-03 09:50:36,548 WARN com.gcu.Tracer [http-nio-8080-exec-5] GCU Method execution longer than 10 ms!
+2024-04-03 09:50:38,214 TRACE com.gcu.Tracer [http-nio-8080-exec-9] GCU Method com.gcu.HomeController.showHomePage execution started at:Wed Apr 03 09:50:38 MST 2024
+2024-04-03 09:50:38,215 TRACE com.gcu.Tracer [http-nio-8080-exec-9] GCU Method com.gcu.HomeController.showHomePage execution lasted:1 ms
+2024-04-03 09:50:38,215 TRACE com.gcu.Tracer [http-nio-8080-exec-9] GCU Method com.gcu.HomeController.showHomePage execution ended at:Wed Apr 03 09:50:38 MST 2024
+2024-04-03 09:50:39,332 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.OrdersController.showAllProperties execution started at:Wed Apr 03 09:50:39 MST 2024
+2024-04-03 09:50:39,332 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.business.PropertyBusinessService.getProperties execution started at:Wed Apr 03 09:50:39 MST 2024
+2024-04-03 09:50:39,332 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.data.PropertyDataService.getProperties execution started at:Wed Apr 03 09:50:39 MST 2024
+2024-04-03 09:50:39,530 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.data.PropertyDataService.getProperties execution lasted:198 ms
+2024-04-03 09:50:39,531 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.data.PropertyDataService.getProperties execution ended at:Wed Apr 03 09:50:39 MST 2024
+2024-04-03 09:50:39,532 WARN com.gcu.Tracer [http-nio-8080-exec-1] GCU Method execution longer than 10 ms!
+2024-04-03 09:50:39,532 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.business.PropertyBusinessService.getProperties execution lasted:200 ms
+2024-04-03 09:50:39,533 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.business.PropertyBusinessService.getProperties execution ended at:Wed Apr 03 09:50:39 MST 2024
+2024-04-03 09:50:39,533 WARN com.gcu.Tracer [http-nio-8080-exec-1] GCU Method execution longer than 10 ms!
+2024-04-03 09:50:39,534 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.OrdersController.showAllProperties execution lasted:203 ms
+2024-04-03 09:50:39,534 TRACE com.gcu.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.OrdersController.showAllProperties execution ended at:Wed Apr 03 09:50:39 MST 2024
+2024-04-03 09:50:39,535 WARN com.gcu.Tracer [http-nio-8080-exec-1] GCU Method execution longer than 10 ms!
+2024-04-03 09:50:45,628 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-03 09:50:46,521 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
